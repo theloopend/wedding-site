@@ -1,0 +1,48 @@
+@font-face {
+    font-family: tangerine;
+    src: url(Media/fonts/tangerine/Tangerine-Regular.ttf);
+}
+
+body {
+    width: 100%;
+    background-color: #ff6666;
+    font-family: tangerine;
+    margin: 0px;
+}
+
+.image-container {
+    height: 40vh;
+    flex-grow: 0.5;
+    border: white 1px solid;
+}
+
+
+.images-section {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: top;
+}
+
+.heading {
+    flex-flow: column;
+    display: flex;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
