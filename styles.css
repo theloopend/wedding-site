@@ -8,11 +8,23 @@
   src: url(Media/fonts/Playfair/PlayfairDisplay-Italic-VariableFont_wght.ttf);
 }
 
+@font-face {
+  font-family: Joesefin;
+  src: url(Media/fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
+}
+
+.light-bold {
+  font-weight: 400;
+}
+
+
 body {
     width: 100%;
     background-color: #ff6666;
-    font-family: Playfair
+    font-family: Joesefin;
     font-size: 30px;
+    font-weight: 300;
+    color: black;
     margin: 0px;
 }
 
@@ -54,6 +66,7 @@ h1 {
     font-size: 4em;
     font-family: tangerine;
     margin-bottom: 5px;
+    font-weight: bold;
 }
 
 h2 {
@@ -68,9 +81,21 @@ h3 {
   margin-bottom: 5px;
 }
 
+h4 {
+  font-size: 1em;
+  font-family: tangerine;
+  margin-bottom: 5px;
+}
+
+.glyphicon{
+  top: 8px;
+  position: relative;
+}
+
 a {
+    font-family: Joesefin;
     text-decoration: none;
-    color: #8a00e6;
+    color: #072fff;
 }
  
   
@@ -148,9 +173,11 @@ a {
   }
 
   .info-card {
+    margin-bottom: 30px;
     padding-bottom: 20px;
     background-color: white;
-    width: 70vw;
+    width: 97vw;
     align-self: center;
-    border: black 5px double;
+    border: black 10px double;
+    font-weight: 400;
   }
