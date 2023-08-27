@@ -16,7 +16,7 @@ window.addEventListener('DOMContentLoaded', () => {
     imgOnClick = (imageSrc, altText) => {
         modal.style.display = "block";
         modalImg.src = imageSrc;
-        captionText.innerHTML = altText;
+        //captionText.innerHTML = altText;
     }
     
 });

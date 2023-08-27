@@ -181,3 +181,7 @@ a {
     border: black 10px double;
     font-weight: 400;
   }
+
+  .info-images {
+    margin-bottom: 0px;
+  }

@@ -10,9 +10,9 @@
             <h1>Wedding Information</h1>
         </div>
         <div class="heading">
-            <h4>
+            <h3>
                 <a href="index.html">Main Page<i class="glyphicon glyphicon-link"></i></a>
-            </h4>
+            </h3>
         </div>
         <div class="heading">
             <div class="info-card">
@@ -35,7 +35,33 @@
                     <div>Email: <a href="mailto:z-ri@live.com">z-ri@live.com <i class="glyphicon glyphicon-envelope"></i></a></div>
                     <div>Text: <a href="tel:5154195412">515-419-5412 <i class="glyphicon glyphicon-phone"></i></a></div>
                 </div>
+            </div>
+        </div>
+        <div>
+            <div class="images-section info-images">
+                <div class="image-container">
+                    <img onclick="imgOnClick(this.src, this.alt)" src="Media/pictures/info page/adorable-chelsea.JPG" alt="wedding">
+                </div>
+                <div class="image-container">
+                    <img onclick="imgOnClick(this.src, this.alt)" src="Media/pictures/info page/adorable-caleb.JPG" alt="wedding">
+                </div>
+            </div>
+    
+            <div class="images-section">
+                <div class="image-container">
+                    <img onclick="imgOnClick(this.src, this.alt)" src="Media/pictures/info page/silly-chelsea.JPG" alt="wedding">
+                </div>
+                <div class="image-container">
+                    <img onclick="imgOnClick(this.src, this.alt)" src="Media/pictures/info page/silly-caleb.JPG" alt="wedding">
+                </div>
+            </div>
         </div>
     </div>
+    <script type="text/javascript" src="image-modal.js"?></script>
 </body>
+<div id="image-modal-wrapper" class="modal">
+    <span id="modal-close-button" class="close">&times;</span>
+    <img class="modal-content" id="image-displayed-in-modal">
+    <div id="caption"></div>
+</div>
 </html>
